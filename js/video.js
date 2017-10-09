@@ -18,7 +18,6 @@ $('.iconfont').eq(1).on('click', function(){
 
 $('.iconfont').eq(2).on('click',function(){
 	video.webkitRequestFullScreen()
-	setTimeout(document.webkitCancelFullScreen,10000)
 })
 
 $('.process').on('mousedown', function(e){
